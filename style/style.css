@@ -297,6 +297,11 @@ h2 span {
     text-align: center;
 }
 
+.menu-row .menu-img {
+  
+
+}
+
 .menu-img {
     border-radius: 10px;
     width: 350px;
@@ -305,6 +310,10 @@ h2 span {
     background-size: cover;
     align-items: center;
     transition: 0.2s;
+
+    box-shadow: rgba(0, 0, 0, 0.445) -3px 5px 5px, rgba(0, 0, 0, 0.23) 0px 5px 5px;
+   
+    /* box-shadow: 10px 20px 5px ; */
 }
 
 .menu-img:hover {
@@ -628,12 +637,21 @@ h2 span {
         padding-top: 20%;
     }
 
+    /* ini supaya dibawah gambar ada gradasi hitam */
+    .header::after {
+        height: 20%;
+    }
+
     iframe {
         width: 20%;
     }
 
     .contact-identity {
         margin: 0 10% 10%;
+    }
+
+    .about-content p {
+        padding-left: 10px;
     }
 
     .menu-text {
