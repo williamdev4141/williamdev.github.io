@@ -636,8 +636,13 @@ h2 span {
         margin: 0 10% 10%;
     }
 
+    .menu-text {
+        padding: 0 0 0 10px;
+        
+    }
+    
     .facilities ul {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 }
 
