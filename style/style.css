@@ -12,7 +12,7 @@
 
 /* 2. Default Start */
 body {
-    min-height: 800vh; 
+    /* min-height: 800vh;  */
     font-family: 'Poppins', sans-serif;
     /* font weight : @100;200;400;600;700 */
     background-color: red;
@@ -257,7 +257,7 @@ h2 span {
 }
 
 .about-row .about-content h3 {
-    
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
     color: var(--primary);
     font-weight: 600;
     padding-bottom: 10px;
@@ -621,7 +621,7 @@ h2 span {
 /* Mobile Phone */
 @media (max-width: 450px) {
     html {
-        font-size: 70%;
+        font-size: 80%;
     }
 
     h2 {
@@ -642,7 +642,7 @@ h2 span {
     }
     
     .facilities ul {
-        margin-left: 30px;
+        margin-left: 25px;
     }
 }
 
