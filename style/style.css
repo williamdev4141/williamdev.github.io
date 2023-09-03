@@ -635,8 +635,15 @@ h2 span {
     .contact-identity {
         margin: 0 10% 10%;
     }
+
+    .facilities ul {
+        padding-left: 10px;
+    }
 }
 
+
+
+}
 
 
 
