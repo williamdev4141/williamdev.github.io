@@ -1,0 +1,697 @@
+/* 1. CSS Reset Start*/
+* {
+    /* background-color: royalblue; */
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+/* 1. CSS Reset End */
+
+/* 2. Default Start */
+body {
+    /* min-height: 800vh;  */
+    font-family: 'Poppins', sans-serif;
+    /* font weight : @100;200;400;600;700 */
+    color: white;
+
+    background-color: rgb(255, 255, 255); 
+}
+
+:root {
+    --background: #fefae0;
+    --black: rgb(7, 7, 7);
+    --primary: #c7ad57;
+    --secondary: rgb(222, 255, 102);
+    --footer: #a84040;
+    /* #222 */
+}
+
+h2 {
+    font-style: italic;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 8% 0 16px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493); */
+}
+
+h2 span {
+  font-style: normal;
+  color: var(--primary);
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+/* 2. Default End */
+
+
+/* 3. Navbar Start */
+/* a. navbar link */
+
+/* class sticky pada navbar ketika window di scroll*/
+.navigation .sticky {
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 1rem 7%;
+    border-bottom: solid 0.5px #ffffff52;
+}
+
+
+.navbar {
+    /* background-color: rgb(109, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transition: 0.3s; 
+}
+
+.navbar-nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 2rem;
+    position: relative;
+}
+
+/* style untuk transisi dibawah navlink */
+.navbar-nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #deff66;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar-nav ul li:hover::after {
+    width: 100%;
+}
+
+
+.navbar-nav ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* b. navbar logo */
+
+.navbar-logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 700;
+    font-style: italic;
+    /* border-bottom: solid 5px #deff66;  optional */
+}
+
+/* c. navbar icon */
+
+.navbar-icons { display: none; color: var(--primary);}
+
+.navbar-icons i {
+    font-size: 180%;
+}
+
+/* 3. Navbar End */
+
+/* 4. Home / Header Start */
+/* a.backround hero image */
+.header {
+    min-height: 115vh;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/hero-image.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center; 
+    position: relative;
+}
+
+/* ini supaya dibawah gambar ada gradasi hitam */
+.header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.932) 3%, rgba(0, 0, 0, 0) 20%);
+    /* bottom: -2%; */
+}
+
+/* b. headline dan isinya */
+.headline {
+   padding: 18% 10%;
+   text-align: center;
+}
+
+.headline h3 {
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+.headline h3 span {
+    color: var(--primary);
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.headline p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+/* c. button cta */
+
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 5px;   
+}
+
+.headline .cta-1 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #ffff ;
+    padding: 10px 28px;
+    position: relative;
+    cursor: pointer;
+  
+}
+
+
+.headline .cta-2 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #ffff ;
+    padding: 10px 28px;
+    position: relative;
+    cursor: pointer;
+}
+
+.headline .cta-1:hover {
+    border: 1px solid e2e4dd;
+    background: var(--primary);
+    transition: 0.5s;
+}
+
+.headline .cta-2:hover {
+    border: 1px solid #e2e4dd;
+    background: #deff66a1;
+    transition: 0.5s;
+}
+
+/* 4. Home / Header End */
+
+
+/* 5 About Start */
+.about {
+   
+    
+    width: 100%;
+    color: black;
+    background-color: var(--background);
+}
+
+.about-row {
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+    margin-top: 7%;
+}
+
+.about-row .about-img img{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 0 1px 5px ;
+}
+
+.about-img {
+    width: 60%;
+}
+
+.about-row .about-content{
+    width: 650px;
+    padding: 0 1rem; 
+}
+
+.about-row .about-content h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
+    color: var(--primary);
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+/* 5 About End */
+
+/* 6. Facilities Start */
+.facilities {
+    background-color: var(--background); 
+}
+
+.facilities h2{
+   color: var(--primary);
+}
+
+.facilities h2 span {
+    color: rgb(255, 255, 255);
+  }
+
+.facilities ul {
+    display: flex;
+    list-style: none;
+
+    justify-content: space-between;
+    
+}
+
+.facilities ul li {
+    width: 350px;
+    padding-bottom: 10%;
+}
+
+.menu-row {
+    padding: 0 10%;
+    margin-top: 7%;
+    text-align: center;
+}
+
+
+.menu-img {
+    border-radius: 10px;
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+    background-size: cover;
+    align-items: center;
+    transition: 0.2s;
+
+    box-shadow: rgba(0, 0, 0, 0.445) -3px 5px 5px, rgba(0, 0, 0, 0.23) 0px 5px 5px;
+   
+    /* box-shadow: 10px 20px 5px ; */
+}
+
+.menu-img:hover {
+    filter: brightness(1.5);
+}
+
+.menu-name {
+    font-size: 1.7rem;
+    padding: 0.5rem;
+}
+
+.menu-text {
+    width: 300;
+    text-align: left;
+    padding: 10px 30px;
+    color: black;
+}
+/* 6. Facilities End */
+
+/* 7. Contact Start */
+.contact-row {
+   
+    background-color: rgba(0, 0, 0, 1); 
+}
+
+.contact-title {
+    padding-bottom: 5%;
+}
+
+.contact-form {
+    display: flex;
+    margin: 0 10% 10%;
+    background-color: #222;
+    
+}
+
+.contact-form form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    border: 1px solid #eee;
+    padding-left: 1rem;
+    background-color: black;
+}
+
+.input-group i {
+    color: white;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 2rem;
+    background: none;
+    color: white;
+    font-size: 100%;
+}
+
+.btn {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size:  100%;
+    background-color: var(--primary);
+}
+
+.maps {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-identity {
+    display: flex;
+    margin: 0 20% 10%;
+}
+
+.owner-card {
+    width: 100%;
+    /* min-height: 900px;  */
+    justify-content: center;
+    text-align: center;
+    background-color: var(--background);
+    border-radius: 8px;
+    color: var(--black);
+}
+
+.banner-img {
+    width: 100%;
+    height: 18rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.owner-img  {
+    width: 15rem;
+    height: 15rem;
+    border: 5px solid var(--background);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20%;
+    z-index: 2;
+    position: relative;
+    border-radius: 50%;
+    background-image: url(../img/profile-image.jpg);
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.owner-img:hover {
+    filter: grayscale(25%);
+}
+
+/* .owner-img {
+    z-index: -2;
+    width: 50%;
+    height: 50%;
+
+} */
+
+.owner-name {
+    color: var(--black);
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+.owner-description {
+    padding: 0 10% 0;
+}
+
+.profil-icon {
+    display: flex;
+    padding: 5% 30% 5%;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    font-size: 175%; 
+    cursor: pointer; 
+    color: var(--black);
+    /* transition: 0.2s;   */
+}
+
+.fa-brands:hover {
+    color:rgb(117, 117, 117);
+} 
+
+.contact {
+    margin: 0 auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/cafe-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 7% 0;
+}
+
+.contact h1 {
+    /* color: var(--primary); */
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px rgba(3, 3, 3, 0.671);
+}
+
+.footer {
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    background-color: var(--footer);
+}
+
+.footer p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 75%;
+    padding: 0 10%;
+}
+
+.contact-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #ffff ;
+    padding: 10px 28px;
+    position: relative;
+    cursor: pointer;
+  
+}
+
+.contact-btn:hover {
+    border: 1px solid #e2e4dd;
+    background: var(--primary);
+    transition: 0.5s;
+}
+
+/* 7. Contact End */
+
+
+
+ /* Media Queries
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 100%;
+    }
+
+    .facilities ul {
+        flex-wrap: wrap;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 75%;
+    }
+
+    h2 {
+        padding-top: 13%;
+    }
+
+    .navbar {
+        padding: 1.5rem 6%;
+    }
+
+    .navigation .sticky {
+        padding: 1.5rem 9%;
+    }
+
+    .navbar-icons {
+        display: inline-block;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        width: 30%;
+        height: 100vh;
+        transition: 0.5s;
+        background-color: rgba(0, 0, 0, 0.8);
+        background-image: linear-gradient(rgba(192, 166, 132, 0.8),rgba(255, 241, 225, 0.8));
+    }
+
+    .navbar-nav.active {
+        right: 0;
+    }
+
+    /* untuk layout sidebar di tablet */
+    .navbar-nav ul li {
+        list-style: none;
+        display: block;
+        padding: 25px 15px;
+        position: relative;
+    }
+
+    .navbar-nav ul li:hover::after {
+        width: 0;
+    }   
+
+    .header {
+        align-items: center;
+    }
+
+    .about-row {
+        text-align: left;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-row .about-img img {
+        width: 100%;
+    }
+
+    .about-row .about-content h3 {
+        padding: 1rem 0;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+
+    .menu-img {
+        width: 100%;
+    }
+
+    .facilities ul li {
+        width: 300px;
+        padding-bottom: 20%;
+    }
+
+    .facilities ul {
+        flex-wrap: wrap;
+    }
+
+    .contact-form {
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 80%;
+    }
+
+    h2 {
+        padding-top: 20%;
+    }
+
+    /* ini supaya dibawah gambar ada gradasi hitam */
+    .header::after {
+        height: 20%;
+    }
+
+    iframe {
+        width: 20%;
+    }
+
+    .contact-identity {
+        margin: 0 10% 10%;
+    }
+
+    .about-content p {
+        padding-left: 10px;
+    }
+
+    .menu-img {
+        height: 250px;
+    }
+
+    .menu-text {
+        padding: 0 0 0 10px;
+        
+    }
+    
+    .facilities ul {
+        margin-left: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Kerangka Media Query 
+
+    Laptop 
+@media (max-width: 1366px) {
+    
+}
+
+Tablet 
+@media (max-width: 768px) {
+
+
+}
+
+
+ Mobile Phone 
+@media (max-width: 450px) {
+  
+} 
+*/ 
