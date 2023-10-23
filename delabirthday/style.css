@@ -20,6 +20,8 @@ body {
   transition: 1s;
 
   padding-bottom: 200px;
+
+  
 }
 
 .birthdayCard:hover {
@@ -179,8 +181,8 @@ p {
   }
   
   body {
-    background: linear-gradient(#89a23e, #c8e480);
-    /* background: #89a23e; */
+    background: linear-gradient(#89a23e, #ecd99b);
+    /* background: #ecd99b; */
     display: grid;
     place-items: center;
     /* height: 100vh; */
@@ -334,7 +336,7 @@ img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-  border-radius: 5%; 
+  border-radius: 2%; 
   border: 2px solid #ffffff;
 }
 
