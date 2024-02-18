@@ -35,11 +35,11 @@ body {
 
 /* TRANSITION INTRO START*/
 .intro {
-    /* display: flex; */
-    display: none;
+    display: flex;
+    /* display: none; */
 }
 .backdrop {
-    display: none;
+    /* display: none; */
 }
 
 .introFinish {
@@ -209,7 +209,7 @@ body {
 /* wing animation end */
 
 .backdrop {
-    z-index: 1;
+    z-index: 2;
     background-color: black;
     position: fixed;
     top: 0;
@@ -403,6 +403,9 @@ body {
     .about-section-image {
         display: none;
     }
+    .about-section-content {
+        margin-top: 10%;
+    }
     .about-section-content p {
         width: 80%;
     }
@@ -478,7 +481,7 @@ body {
     }
 
     .welspan , .centerspan , .lastspan {
-        font-size: 16px;
+        font-size: 1.8rem;
     }
 
     .scaleEffect {
