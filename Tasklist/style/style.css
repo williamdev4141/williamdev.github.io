@@ -1,0 +1,115 @@
+/* 1. CSS Reset Start*/
+* {
+    /* background-color: royalblue; */
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+/* 1. CSS Reset End */
+
+/* 2. Default Start */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* font weight : @100;200;400;600;700 */
+   
+    color: rgb(0, 0, 0);
+
+    background-image: linear-gradient(rgba(19, 25, 54, 0.7),rgba(85, 85, 85, 0.7)),url(../img/schoolbackround.jpg);
+    /* background-image: linear-gradient(rgba(129, 136, 167, 0.7),rgba(56, 68, 117, 0.7)),url(../img/schoolbackround.jpg); */
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center; 
+    position: relative;
+
+    min-height: 200vh;
+}
+
+:root {
+    --background: rgb(255, 255, 255);
+    --black: rgb(7, 7, 7);
+    --primary: rgb(85, 248, 226);
+    --secondary: rgb(222, 255, 102);
+    --footer: #a84040;
+}
+
+/* 2. Default End */
+
+
+
+.section {
+    padding: 5rem 10rem;
+   
+}
+
+.tasklist-container {
+    
+    /* border: 2px solid red; */
+    border-radius: 2rem;
+    box-shadow: rgb(236, 255, 168) 0px 5px 30px -10px;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.2rem 1rem; 
+   /* background-image: linear-gradient(rgba(204, 207, 221, 0.7),rgba(164, 170, 194, 0.7)); */
+   background-color: rgba(255, 255, 255, 0.178);
+}
+
+.tasklist-row {
+    min-height: 20rem;
+    max-width: 15rem;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    min-width: 15rem; 
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem;    
+}
+
+/* .tasklist {
+    
+    
+} */
+
+.task-title {
+    font-weight: bold;
+}
+
+.fa-solid {
+    font-size: 1.2rem;
+    position: relative;
+   
+    /* bottom: -65%; */
+    margin-top: 1rem;
+    
+    cursor: pointer;
+    transition: 0.1s;
+    padding: 0 1rem;
+}
+
+
+.fa-solid:hover {
+    color: rgb(134, 133, 133);
+    /* filter: grayscale(25%); */
+    /* filter: brightness(1.5); */
+}
+
+.btn-selesai {
+    width: 5rem;
+}
+
+.edit-section {
+    display: none;
+}
+
+.edit-section-toggle {
+    display: block;
+}
+
+.edit-section .fa-solid {
+    padding-top: 1rem;
+}
