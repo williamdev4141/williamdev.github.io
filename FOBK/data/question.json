@@ -1,0 +1,40 @@
+{
+    "tryout" : [
+        {
+            "questionCode" : "1",
+            "mainQuestion" : "Siapakah penemu telepon?",
+            "option" : {
+                "A" : "Faisal Mukti" , 
+                "B" : "A. Graham Bell" ,
+                "C" : "Farand" , 
+                "D" : "Iswanel Colorova" 
+            } , 
+            "correctOption" : "B" ,
+            "correctAnswer" : "A. Graham Bell"
+        } ,
+        {
+            "questionCode" : "2",
+            "mainQuestion" : "SIAPA PRESIDEN KETUJUH INDONESIA?",
+            "option" : {
+                "A" : "JOKOWI" , 
+                "B" : "SOEKARNO" ,
+                "C" : "FARAND" , 
+                "D" : "ISWANEL COLOROVA" 
+            } ,
+            "correctOption" : "A" ,
+            "correctAnswer" : "JOKOWI"
+        } ,
+        {
+            "questionCode" : "3",
+            "mainQuestion" : "Ibukota Filipina?",
+            "option" : {
+                "A" : "Manilla" , 
+                "B" : "Krusty Crab" ,
+                "C" : "Pnom Penh" , 
+                "D" : "Hanoi" 
+            } ,
+            "correctOption" : "A" ,
+            "correctAnswer" : "Manilla"
+        } 
+    ]
+}

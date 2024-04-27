@@ -1,0 +1,164 @@
+/* -------------- CSS Reset ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    /* font-size: 52px; */
+    /* color: white; */
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+
+/* color pallete */
+:root {
+    --background: #fefae0;
+    /* --background: #fefae0; */
+    --wings: rgb(218, 183, 27);
+    --wingsActivated: rgb(156, 148, 113);
+    --primary: #ddb23d;
+    /* --primary: #c7ad57; */
+    --secondary: rgb(222, 255, 102);
+    --footer: #a84040;
+    --content: #152238;
+    --content-2: rgb(235, 235, 235);
+    /* --content-2: rgb(240, 240, 240); */
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+
+    line-height: 90%;
+    letter-spacing: -2px;
+}
+h2 {
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+body {
+    /* background-color: black; */
+    
+}
+
+.first-section {
+    min-height: 200vh;
+    margin: 2rem 3rem;
+}
+
+.question-box {
+    min-width: 20rem;
+}
+
+.question-box li {
+    margin-left: 3rem;
+    max-width: fit-content;
+}
+
+.selected-option {
+    background-color: rgb(224, 240, 180);
+    border-radius: 5px;
+}
+
+.question {
+    font-weight: 600;
+}
+
+.submit-btn {
+    /* background: linear-gradient(rgb(25, 87, 202), hsl(207, 100%, 75%)); */
+    background-color: rgb(226, 57, 57);
+    color: white;
+    padding: 0.5rem 2.5rem;
+    margin: 3rem 0 1rem;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.submit-btn:hover {
+    /* background: linear-gradient(rgb(73, 106, 168), hsl(208, 87%, 79%)); */
+    background-color: rgb(248, 142, 142);
+
+}
+
+.final-result {
+    display: none;
+}
+.final-result-showed {
+    display: inline-block;
+}
+
+
+
+
+
+
+/* gabut */
+/* .h4-selected-option {
+    background-color: rgb(88, 88, 88);
+}
+.benar {
+    color: white;
+    background-color: rgb(54, 196, 54);
+    font-size: 600;
+    display: none;
+}
+.benar-selec {
+    display: inline-block;
+}
+.salah {
+    color: white;
+    background-color: rgb(236, 41, 15);
+    font-size: 600;
+    display: none;
+}
+.salah-selec {
+    display: inline-block;
+}
+
+.ol {
+    display: inline;   
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
