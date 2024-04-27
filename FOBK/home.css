@@ -47,11 +47,11 @@ p {
 
 body {
     /* background-color: black; */
-    
 }
 
 .first-section {
     margin: 2rem 3rem;
+    min-height: 80vh;
 }
 
 .question-pack {
