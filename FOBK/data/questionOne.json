@@ -2,39 +2,67 @@
     "tryout" : [
         {
             "questionCode" : "1",
-            "mainQuestion" : "Siapakah penemu teleponAAA?",
+            "mainQuestion" : "Siapakah penemu telepon?",
             "option" : {
                 "A" : "Faisal Mukti" , 
-                "B" : "A. Graham Bell" ,
+                "B" : "Alexander Graham Bell" ,
                 "C" : "Farand" , 
                 "D" : "Iswanel Colorova" 
             } , 
             "correctOption" : "B" ,
-            "correctAnswer" : "A. Graham Bell"
+            "correctAnswer" : "Alexander Graham Bell"
         } ,
         {
             "questionCode" : "2",
-            "mainQuestion" : "SIAPA PRESIDEN KETUJUH INDONESIA?",
+            "mainQuestion" : "Orang yang menggunakan pewarna tambahan agar makanan lebih menarik dan bervariasi. Bunga rosela dan karmoisin adalah pewarna yang sering digunakan. Meskipun warnanya tidak terlalu cerah, bunga rosela mengandung protein, vitamin, mineral, antikanker, dan peluruh batu ginjal. Sementara itu, karmoisin tidak mengandung nutrisi yang dibutuhkan tubuh, tetapi memberikan warna yang lebih cerah, stabil, dan tahan lama. Panggunaan karmoisin yang berlebihan dapat menyebabkan alergi dan kanker hati. Orang lebih disarankan menggunakan bunga. rosela daripada karmoisin.<br><br> Berdasarkan informasi tersebut pernyataan berikut yang PASTI SALAH?",
             "option" : {
-                "A" : "JOKOWI" , 
-                "B" : "SOEKARNO" ,
-                "C" : "FARAND" , 
-                "D" : "ISWANEL COLOROVA" 
+                "A" : "Orang yang memiliki alergi sering mengonsumsi makanan dengan perwarna karmoisin." , 
+                "B" : "Makanan yang berwarna cerah dan menarik tidak mengandung nutrisi dibutuhkan oleh tubuh." ,
+                "C" : "Orang yang mengonsumsi makanan dengan sedikit pewarna rosela tidak mendapat asupan protein." , 
+                "D" : "Kanker hati disebabkan oleh makanan yang mengandung karmoisin." ,
+                "E" : "Orang yang mengonsumsi makanan dengan karmoisin secara berlebihan tidak akan mendapatkan asupan nutrisi." 
             } ,
-            "correctOption" : "A" ,
-            "correctAnswer" : "JOKOWI"
+            "correctOption" : "C" ,
+            "correctAnswer" : "Orang yang mengonsumsi makanan dengan sedikit pewarna rosela tidak mendapat asupan protein."
         } ,
         {
             "questionCode" : "3",
-            "mainQuestion" : "Ibukota Filipina?",
+            "mainQuestion" : "Pekerja A, B, dan C dapat menyelesaikan suatu pekerjaan dalam 30 hari. Jika pekerja C tidak dapat ikut dalam menyelesaikan pekerjaan, hanya seperempat yang dapat diselesaikan oleh pekerja lainnya dalam waktu 15 hari. Banyak hari yang dibutuhkan pekerja C untuk menyelesaikan pekerjaan tersebut adalah....",
             "option" : {
-                "A" : "Manilla" , 
-                "B" : "Krusty Crab" ,
-                "C" : "Pnom Penh" , 
-                "D" : "Hanoi" 
+                "A" : "15" , 
+                "B" : "30" ,
+                "C" : "45" , 
+                "D" : "60" , 
+                "E" : "90" 
+            } ,
+            "correctOption" : "D" ,
+            "correctAnswer" : "60"
+        } ,
+        {
+            "questionCode" : "4",
+            "mainQuestion" : "Jarak antara Kota A dan B adalah dua kali jarak antara Kota C dan D dengan Kota E di tengah-tengah antara Kota C dan D. Jika jarak Kota C ke A sama dengan jarak Kota D ke B yaitu setengah dari jarak Kota A ke E, dua Kota dengan jarak terjauh adalah...?",
+            "option" : {
+                "A" : "A dan B" , 
+                "B" : "B dan E" ,
+                "C" : "A dan E" , 
+                "D" : "B dan D" , 
+                "E" : "C dan B" 
             } ,
             "correctOption" : "A" ,
-            "correctAnswer" : "Manilla"
+            "correctAnswer" : "A dan B"
+        } ,
+        {
+            "questionCode" : "5",
+            "mainQuestion" : "Setiap yang dilindungi pemerintah merupakan flora dan fauna yang langka. Semua flora dan fauna yang langka bukan merupakan mahluk hidup yang tidak unik. Manakah simpulan berikut yang BENAR?",
+            "option" : {
+                "A" : "Sebagian mahluk hidup yang tidak unik bukan merupakan yang dilindungi pemerintah." , 
+                "B" : "Sebagian yang dilindungi pemerintah adalah mahluk hidup yang tidak unik." ,
+                "C" : "Semua yang dilindungi pemerintah adalah bukan mahluk hidup yang tidak unik." , 
+                "D" : "Setiap mahluk hidup yang tidak unik tidak dilindungi masyarakat." ,
+                "E" : "Setiap mahluk hidup yang unik tidak dilindungi oleh pemerintah." 
+            } , 
+            "correctOption" : "C" ,
+            "correctAnswer" : "Semua yang dilindungi pemerintah adalah bukan mahluk hidup yang tidak unik."
         } 
     ]
 }

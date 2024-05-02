@@ -125,10 +125,18 @@ body {
 .copyright {
     background-color: #1a2949;
     font-size: 0.7rem;
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 
-
+/* @media(max-width: 700px) {
+   .copyright {
+   
+     
+   }
+} */
 
 
 

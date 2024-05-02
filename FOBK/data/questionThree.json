@@ -2,39 +2,68 @@
     "tryout" : [
         {
             "questionCode" : "1",
-            "mainQuestion" : "Siapakah penemu teleponCCC?",
+            "mainQuestion" : "Jika seorang cermat, mengerjakan pekerjaan dengan hati-hati, tidak terburu-buru, dan penuh perhitungan, ia dapat diandalkan. Jika orang mengerjakan pekerjaan dengan hati-hati, penuh perhitungan, dan tidak terburu-buru, manakah kesimpulan yang BENAR?",
             "option" : {
-                "A" : "Faisal Mukti" , 
-                "B" : "A. Graham Bell" ,
-                "C" : "Farand" , 
-                "D" : "Iswanel Colorova" 
+                "A" : "Orang itu selalu cermat" , 
+                "B" : "Orang itu terlalu cermat" ,
+                "C" : "Orang itu cermat sehingga dapat diandalkan" , 
+                "D" : "Orang itu dapat diandalkan" ,
+                "E" : "Orang itu tidak ceroboh"
             } , 
-            "correctOption" : "B" ,
-            "correctAnswer" : "A. Graham Bell"
+            "correctOption" : "D" ,
+            "correctAnswer" : "Orang itu dapat diandalkan"
         } ,
         {
             "questionCode" : "2",
-            "mainQuestion" : "SIAPA PRESIDEN KETUJUH INDONESIA?",
+            "mainQuestion" : "Batu bata yang berhasil dicetak pabrik A adalah 400 buah. Jika jumlah tersebut lebih rendah 20% dari target yang ditetapkan oleh pemilik pabrik, berapa batu bata yang harus dicapai?",
             "option" : {
-                "A" : "JOKOWI" , 
-                "B" : "SOEKARNO" ,
-                "C" : "FARAND" , 
-                "D" : "ISWANEL COLOROVA" 
+                "A" : "420" , 
+                "B" : "440" ,
+                "C" : "460" , 
+                "D" : "480" ,
+                "E" : "500" 
             } ,
-            "correctOption" : "A" ,
-            "correctAnswer" : "JOKOWI"
+            "correctOption" : "E" ,
+            "correctAnswer" : "500"
         } ,
         {
             "questionCode" : "3",
             "mainQuestion" : "Ibukota Filipina?",
             "option" : {
-                "A" : "Manilla" , 
-                "B" : "Krusty Crab" ,
-                "C" : "Pnom Penh" , 
-                "D" : "Hanoi" 
+                "A" : "Madrid" , 
+                "B" : "Doha" ,
+                "C" : "Manilla" , 
+                "D" : "Chicago" ,
+                "E" : "Beijing" 
+            } ,
+            "correctOption" : "C" ,
+            "correctAnswer" : "Manilla"
+        } ,
+        {
+            "questionCode" : "4",
+            "mainQuestion" : "Umur A tiga tahun yang lalu adalah 2 kali umur B. Umur C setengah kali umur B. Jika umur C adalah 10 tahun, selisih umur A terhadap C adalah?",
+            "option" : {
+                "A" : "27 tahun" , 
+                "B" : "17 tahun" ,
+                "C" : "7 tahun" , 
+                "D" : "3 tahun" ,
+                "E" : "1 tahun" 
             } ,
             "correctOption" : "A" ,
-            "correctAnswer" : "Manilla"
+            "correctAnswer" : "27 tahun"
+        } ,
+        {
+            "questionCode" : "5",
+            "mainQuestion" : "Angkutan bus memiliki jadwal yang lebih tepat waktu daripada angkutan umum lainnya. Makin tinggi tingkat ketepatan waktu suatu angkutan umum, makin besar minat masyarakat untuk menggunakannya. Berdasarkan pernyataan tersebut, manakah yang PALING MUNGKIN menjadi akibat dari tingkat ketepatan waktu angkutan bus?",
+            "option" : {
+                "A" : "Angkutan bus dikelola secara profesional." , 
+                "B" : "Angkutan bus dipilih oleh banyak orang." ,
+                "C" : "Angkutan bus mewakili tingkat kenyamanan yang tinggi." , 
+                "D" : "Angkutan bus dapat menetapkan harga yang mahal." ,
+                "E" : "Angkutan bus memiliki risiko kecelakaan yang rendah." 
+            } ,
+            "correctOption" : "B" ,
+            "correctAnswer" : "Angkutan bus dipilih oleh banyak orang."
         } 
     ]
 }

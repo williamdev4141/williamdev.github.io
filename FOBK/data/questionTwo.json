@@ -2,39 +2,68 @@
     "tryout" : [
         {
             "questionCode" : "1",
-            "mainQuestion" : "Siapakah penemu teleponBBB?",
-            "option" : {
-                "A" : "Faisal Mukti" , 
-                "B" : "A. Graham Bell" ,
-                "C" : "Farand" , 
-                "D" : "Iswanel Colorova" 
-            } , 
-            "correctOption" : "B" ,
-            "correctAnswer" : "A. Graham Bell"
-        } ,
-        {
-            "questionCode" : "2",
-            "mainQuestion" : "SIAPA PRESIDEN KETUJUH INDONESIA?",
-            "option" : {
-                "A" : "JOKOWI" , 
-                "B" : "SOEKARNO" ,
-                "C" : "FARAND" , 
-                "D" : "ISWANEL COLOROVA" 
-            } ,
-            "correctOption" : "A" ,
-            "correctAnswer" : "JOKOWI"
-        } ,
-        {
-            "questionCode" : "3",
-            "mainQuestion" : "Ibukota Filipina?",
+            "mainQuestion" : "Apakah nama Ibukota dari Negara Filipina?",
             "option" : {
                 "A" : "Manilla" , 
                 "B" : "Krusty Crab" ,
                 "C" : "Pnom Penh" , 
-                "D" : "Hanoi" 
+                "D" : "Hanoi" ,
+                "E" : "Luxemburg" 
             } ,
             "correctOption" : "A" ,
             "correctAnswer" : "Manilla"
+        } ,
+        {
+            "questionCode" : "2",
+            "mainQuestion" : "Jumlah siswa perempuan yang mengunjungi perpustakaan sekolah selama lima hari berturut-turut adalah 3, 5, 7, 11, dan 13. Sementara itu, jumlah siswa laki-laki yang berkunjung selama lima hari yang sama adalah 12, 12, 14, 11, dan 44. Jika tren kunjungan bersifat konstan, berapa jumlah siswa yang berkunjung ke perpustakaan pada hari ke-7?",
+            "option" : {
+                "A" : "17 dan 49" , 
+                "B" : "19 dan 43" ,
+                "C" : "15 dan 55" , 
+                "D" : "17 dan 49" ,
+                "E" : "19 dan 55" 
+            } ,
+            "correctOption" : "B" ,
+            "correctAnswer" : "19 dan 43"
+        } ,
+        {
+            "questionCode" : "3",
+            "mainQuestion" : "X dan Y melakukan perjalan dari Kota A menuju Kota B dengan menggunakan kendaraan yang berbeda. Berikut ini adalah informasi yang mengenai perjalanan kedua orang tersebut <br><br> i. Kecepatan X lebih lambat daripada kecepatan Y.<br><br> ii. Waktu tempuh Y adalah 1 jam, lebih cepat 30 menit daripada waktu tempuh X.<br><br>iii Rata-rata kecepatan Y dari Kota A ke B adalah 120 km/jam.<br><br>iv. Waktu tempuh Y lebih cepat daripada waktu tempuh X.<br><br>Informasi manakah yang dapat digunakan untuk menentukan kecepatan X dari Kota A ke Kota B? <br>",
+            "option" : {
+                "A" : "i dan ii", 
+                "B" : "i dan iii" ,
+                "C" : "ii dan iii" , 
+                "D" : "ii iv" ,
+                "E" : "iii dan iv" 
+            } ,
+            "correctOption" : "C" ,
+            "correctAnswer" : "ii dan iii"
+        } ,
+        {
+            "questionCode" : "4",
+            "mainQuestion" : "Pakar energi TeslaX menyatakan, 'Penggunaan mobil listrik efektif mengurangi tingkat polusi di ibu kota.' Pakar energi ApeX menyatakan, ''Harga mobil listrik cukup mahal sehingga tidak. banyak diminati.''<br><br>Data menunjukan pembuatan mobil listrik. masih menggunakan energi berbahan batu bara yang relatif murah.<br>Manakah pernyataan berikut yang PALING TEPAT mengenai data tersebut?",
+            "option" : {
+                "A" : "Memperkuat pernyataan pakar energi Tesla X." , 
+                "B" : "Memperlemah pernyataan pakar energi TeslaX." ,
+                "C" : "Memperkuat pernyataan pakar energi ApeX." , 
+                "D" : "Memperlemah pernyataan pakar energi." ,
+                "E" : "Tidak relevan dengan pernyataan pakar energi TeslaX dan ApeX." 
+            } , 
+            "correctOption" : "E" ,
+            "correctAnswer" : "Tidak relevan dengan pernyataan pakar energi TeslaX dan ApeX."
+        } ,
+        {
+            "questionCode" : "5",
+            "mainQuestion" : "10. Ketika berdiskusi, siswa lebih banyak mengingat pelajaran dengan durasi rata-rata 2 minggu. Tetapi, ketika siswa diajari oleh guru, daya ingat mereka terhadap pelajaran yang diberikan hanya bertahan sehari bahkan beberapa jam. Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?",
+            "option" : {
+                "A" : "Siswa merasa lebih nyaman berdiskusi debandingkan diajari oleh guru." , 
+                "B" : "Siswa merasa bersemangat saat diajari oleh guru dan mudah menyerap pelajaran yang diberikan." ,
+                "C" : "Keterlibatan siswa dalam berdiskusi membuat suasana menjadi bising sehingga yang didiskusikan cepat lupa." , 
+                "D" : "Keterlibatan siswa dalam diskusi memengaruhi dava ingat mereka. terhadap yang mereka diskusikan." ,
+                "E" : "Berdiskusi dengan teman dapat dilakukan di rumah sehingga suana yang tercipta nyaman." 
+            } , 
+            "correctOption" : "D" ,
+            "correctAnswer" : "Keterlibatan siswa dalam diskusi memengaruhi dava ingat mereka. terhadap yang mereka diskusikan."
         } 
     ]
 }

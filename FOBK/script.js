@@ -65,7 +65,7 @@ $.getJSON(`data/${quest}.json`, function (data) {
     let question = data.tryout;
     $.each(question, (i, e) => {
         let option = e.option
-        $('.question-box').append(`<label for="" class="question"> ${i += 1}. ${e.mainQuestion} </label><ol type="A" class="option"><li class="optionA q${i -= 1} A">${option.A}</li><li class="optionB q${i} B">${option.B}</li><li class="optionC q${i} C">${option.C}</li><li  class="optionD q${i} D">${option.D}</li></ol>`)
+        $('.question-box').append(`<label for="" class="question"> ${i += 1}. ${e.mainQuestion} </label><ol type="A" class="option"><li class="optionA q${i -= 1} A">${option.A}</li><li class="optionB q${i} B">${option.B}</li><li class="optionC q${i} C">${option.C}</li><li  class="optionD q${i} D">${option.D}</li><li  class="optionE q${i} E">${option.E}</li></ol><br><br>`)
 
         // $('.option').append(`<li>${option.A}</li><li>${option.B}</li><li>${option.C}</li><li>${option.D}</li>`)
 
@@ -85,7 +85,7 @@ $.getJSON(`data/${quest}.json`, function (data) {
     
     // ubah bentuknya dari nodeList menjadi array
     const arrayOfSelectedOption = [].slice.call(selectedOption);
-    const totalOption = 4 //sebanyak jumlah option nya
+    const totalOption = 5 //sebanyak jumlah option nya
 
     function slicingOptionArr(arr, chunkSize) {
         const res = [];
@@ -98,9 +98,6 @@ $.getJSON(`data/${quest}.json`, function (data) {
     
     // console.log(slicingOptionArr(arrayOfSelectedOption, totalOption));
     const selectedOptionNestedArray = slicingOptionArr(arrayOfSelectedOption, totalOption);
-
-
-        
     
     for (let i = 0; i < selectedOptionNestedArray.length; i++) {
         const selectedOptionArray = selectedOptionNestedArray[i];
@@ -128,7 +125,7 @@ $.getJSON(`data/${quest}.json`, function (data) {
 
     const submitBtn = document.querySelector('.submit-btn');
     const finalResult = document.querySelector('.final-result');
-
+    const footer = document.querySelector('.footer-section');
     submitBtn.addEventListener("click" , () => {
         const submit = confirm('yakin ingin mengumpulkan jawaban? pastikan terlebih dahulu jawaban anda! ');    
     
@@ -142,11 +139,11 @@ $.getJSON(`data/${quest}.json`, function (data) {
                 -ranfa
             `);
 
-            const nilaiAnda = (correctAnsw * 10) + 50 
+            const nilaiAnda = (correctAnsw * 10) * 2
             $('.final-result').append(`Nilai Anda : ${nilaiAnda}`)
             finalResult.classList.add('final-result-showed');
+            footer.classList.add('footer-section-showed');
         }
-        
         // function myFunc() { 
         //     window.location.href = "test.html"; 
         // } 
