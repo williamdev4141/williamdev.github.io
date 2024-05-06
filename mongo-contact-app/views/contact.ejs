@@ -1,0 +1,19 @@
+<h1>Daftar Contact yang sudah terdaftar :</h1>
+
+<a href="/contact/add" class="add-button">Tambah data contact</a>
+
+<!-- untuk menampilkan session flash messege -->
+<% if (msg.length !== 0) { %>
+    <div class="msg"><%= msg %></div>
+<% } %>
+
+
+<% if (contacts.length === 0) { %>
+    Data Kontak Masih Kosong
+<% } %>
+
+<% contacts.forEach(e => { %>
+    <p>Nama : <%= e.nama %></p>
+    <p>No. Hp : <%= e.nohp %></p>
+    <a href="/contact/<%= e.nama %>" class="btn">Lihat Detail</a>    
+<% }) %>

@@ -1,0 +1,30 @@
+<div class="add-contact-container">
+
+    <h2>Form Tambah Data Contact</h2>
+
+    <% if (typeof errors != 'undefined') { %>
+        <ul>
+            <% errors.forEach(error => { %>
+                <li> <%= error.msg  %> </li>
+            <% }) %>
+        </ul>
+    <% } %>
+    <form method="post" action="/contact">
+        <div class="form-name">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama" placeholder="ketikan nama anda" required />
+        </div>
+
+        <div class="form-email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ketikan email anda" required />
+        </div>
+
+        <div class="form-nohp">
+            <label for="nohp">No HP</label>
+            <input type="text" name="nohp" id="nohp" placeholder="ketikan nomor hp anda" required />
+        </div>
+
+        <button type="submit"> Tambah </button>
+    </form>
+</div>
