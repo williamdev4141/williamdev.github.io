@@ -1,0 +1,156 @@
+
+:root {
+    --background: #fefae0;
+    /* --background: #fefae0; */
+    --wings: rgb(218, 183, 27);
+    --wingsActivated: rgb(156, 148, 113);
+    --primary: #ddb23d;
+    /* --primary: #c7ad57; */
+    --secondary: rgb(222, 255, 102);
+    --footer: #a84040;
+    --content: #152238;
+    --content-2: rgb(235, 235, 235);
+    /* --content-2: rgb(240, 240, 240); */
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+
+    line-height: 90%;
+    letter-spacing: -2px;
+}
+h2 {
+    font-size: 2.3rem;
+	font-weight: 600;
+	margin-bottom: 1.2rem;
+	color: var(--dark);
+}
+h3 {
+    font-size: 1.2rem;
+	font-weight: 400;
+	margin-bottom: 1.2rem;
+	color: var(--dark);
+}
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.first-section {
+    padding: 2.2rem 1.5rem;
+    /* background-color: red; */
+}
+
+.first-section {
+    width: 100%;
+	padding: 36px 24px;
+	font-family: var(--poppins);
+	max-height: calc(100vh - 56px);
+	overflow-y: auto;
+}
+
+.first-section .table-data {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 24px;
+	margin-top: 24px;
+	width: 100%;
+	color: var(--dark);
+}
+
+.first-section .table-data > div {
+	border-radius: 20px;
+	background: var(--light);
+	padding: 24px;
+	overflow-x: auto;
+}
+.first-section .table-data .head {
+	display: flex;
+	align-items: center;
+	grid-gap: 16px;
+	margin-bottom: 24px;
+
+    /* aktifkan jika ingin di tabel bisa di scroll kesamping pada versi mobile */
+    /* min-width: 420px; */
+}
+.first-section .table-data .head h3 {
+	margin-right: auto;
+	font-size: 24px;
+	font-weight: 600;
+}
+.first-section .table-data .head .bx {
+	cursor: pointer;
+}
+
+.first-section .table-data .order {
+	flex-grow: 1;
+	flex-basis: 500px;
+}
+.first-section .table-data .order table {
+	width: 100%;
+	border-collapse: collapse;
+
+    /* aktifkan jika ingin di tabel bisa di scroll kesamping pada versi mobile */
+    /* min-width: 420px; */
+}
+.first-section .table-data .order table th {
+	padding-bottom: 12px;
+	font-size: 13px;
+	text-align: left;
+	border-bottom: 1px solid var(--grey);
+}
+.first-section .table-data .order table td {
+	padding: 16px 0;
+}
+.first-section .table-data .order table tr td:first-child {
+	display: flex;
+	align-items: center;
+	grid-gap: 12px;
+	padding-left: 6px;
+}
+.first-section .table-data .order table td img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.first-section .table-data .order table tbody tr:hover {
+	background: var(--grey);
+}
+.first-section .table-data .order table tr td .status {
+	font-size: 10px;
+	padding: 6px 16px;
+	color: var(--light);
+	border-radius: 20px;
+	font-weight: 700;
+}
+.first-section .table-data .order table tr td .status.completed {
+	background: var(--blue);
+}
+.first-section .table-data .order table tr td .status.process {
+	background: var(--yellow);
+}
+.first-section .table-data .order table tr td .status.pending {
+	background: var(--orange);
+}
+
+
+
+.total-value {
+    border-top: 1px solid rgba(128, 128, 128, 0.568);
+}
+
+.first-section .table-data .order table tbody tr:last-child {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
