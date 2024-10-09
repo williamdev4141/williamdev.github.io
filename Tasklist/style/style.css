@@ -27,6 +27,8 @@ body {
     position: relative;
 
     min-height: 200vh;
+
+    color: white;
 }
 
 :root {
@@ -65,7 +67,7 @@ body {
     text-align: center;
     padding: 1.2rem 1rem;
     min-width: 15rem; 
-    border: 2px solid black;
+    border: 2px solid rgb(224, 224, 224);
     border-radius: 0.5rem;
     margin: 1rem 1rem;    
 }
@@ -74,6 +76,12 @@ body {
     
     
 } */
+
+.title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
 
 .task-title {
     font-weight: bold;
